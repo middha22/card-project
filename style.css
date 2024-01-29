@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.form-container {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    margin:auto;
+    margin-top: 10px;
+  }
+  
+  .title {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 10px 0 30px 0;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .input {
+    border-radius: 20px;
+    border: 3px solid lightgreen;
+    outline: 0 !important;
+    box-sizing: border-box;
+    padding: 12px 15px;
+  }
+      
+  .form-btn {
+    padding: 10px 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border: 0 !important;
+    outline: 0 !important;
+    background: lightcoral ;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .form-btn:active {
+    box-shadow: none;
+  }
+  
+  .buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  
+
+  #sub{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#info-card {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: blueviolet;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+    flex: 1;
+}
+
+#user-info span {
+    flex: 2;
+    color: #444;
+    text-align: left;
+    padding-left: 10px;
+}
